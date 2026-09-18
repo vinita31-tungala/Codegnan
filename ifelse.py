@@ -177,9 +177,9 @@ elif performance>80 and performance<90:
 elif performance>70 and performance<80:
     print("5 percent hike")'''
 
-#password
+#Problem-10 #password
 #len=8, special char,nums,alphabets
-password=input("Enter password:")
+'''password=input("Enter password:")
 password_len=8
 password_alpha=False
 password_nums=True
@@ -193,6 +193,44 @@ elif not password_nums:
 elif not password_spc:
     print("Password should contain atleast one special character")
 else:
-    print("Password saved")
+    print("Password saved")'''
+
+#Problem-11 # Palindrome number
+# Eg: 121,madam, 12321
+'''num=int(input("Enter num:"))
+original=num
+reverse=0
+while num>0:
+    digit=num%10
+    reverse=reverse*10+digit
+    num//=10
+if original==reverse:
+    print("Palindrome")
+else:
+    print("Not palindrome")'''
+
+# Factorial of a num   5!=5*4*3*2*1=120
+'''num=int(input("Enter num:"))
+fact=1
+while num>0:
+    fact=fact*num
+    num=num-1   # or num-=1
+print(fact)'''
+
+# Fibonacci series 
+# 0 1 1 2 3 5 8 13 21 34 55  0+1=1,1+1=2,1+2=3,.....
+'''num=10
+a=0
+b=1
+for i in range(num):
+    print(a,end=" ")
+    a,b=b,a+b'''
+
+# Finding duplicate nums in a list
+nums=[1,2,3,4,1,3,5,8,6,4,8,0]             # Outer loop --> runs 1 time and inner loop runs 1 to N times6
+for i in range(len(nums)):
+    for j in range(i+1,len(nums)):
+        if nums[i]==nums[j]:
+            print(nums[i])
 
 
