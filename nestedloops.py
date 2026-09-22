@@ -157,10 +157,11 @@ for i in range(0,len(name)):                oo
         print(name[i],end="")               eeee
     print()'''
 
-n=5
-for i in range(1,n+1):
-    # Spaces before the pyramid
-    for j in range(n-i):
+# Triangle with inside spaces
+'''n=5
+for i in range(1,n+1):                         
+    # Spaces before the pyramid               
+    for j in range(n-i):                    
         print(" ",end="")
         # Spaces b/w the stars
     for j in range(1,2*i):
@@ -170,4 +171,4 @@ for i in range(1,n+1):
             print("*",end="")
         else:
             print(" ",end="")
-    print()
+    print()'''
