@@ -227,10 +227,9 @@ for i in range(num):
     a,b=b,a+b'''
 
 # Finding duplicate nums in a list
-nums=[1,2,3,4,1,3,5,8,6,4,8,0]             # Outer loop --> runs 1 time and inner loop runs 1 to N times6
+'''nums=[1,2,3,4,1,3,5,8,6,4,8,0]             # Outer loop --> runs 1 time and inner loop runs 1 to N times6
 for i in range(len(nums)):
     for j in range(i+1,len(nums)):
         if nums[i]==nums[j]:
             print(nums[i])
-
-
+'''

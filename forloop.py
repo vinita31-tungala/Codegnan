@@ -38,12 +38,12 @@ for i in range(1,11):
     print(num*i)'''
 
 # Finding Largest num without using max
-nums=[1,2,3,4,5]
+'''nums=[1,2,3,4,5]
 largest=nums[0]
 for num in nums:
     if num>largest:
         largest=num
-print(largest)
+print(largest)'''
 
 # # While loop - Whenever we don't know the no of iterations needs to perform
 # Eg: Cooking food in restaurant
@@ -68,6 +68,9 @@ while nums<=10:
 while i>=1:
     print(i)
     i=i-1'''
+
+
+
 
 
     
