@@ -94,7 +94,7 @@ else:
     print("Invalid")'''
 
 # Password pattern valid or not
-import re
+'''import re
 name=input("Enter name:")
 password=input("Enter password:")
 #Name
@@ -114,4 +114,4 @@ pattern=r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*\d).{8,}$"
 if re.fullmatch(pattern,password):
     print("Valid password")
 else:
-    print("Invalid password")
+    print("Invalid password")'''
