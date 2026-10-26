@@ -40,7 +40,7 @@ print(colors[2])
 print(colors+me)
 # Methods
 print(len(colors))'''
-a=("1","2","3","4","5","3","2","6")
+'''a=("1","2","3","4","5","3","2","6")
 print(a)
 print(a.count(5))
 print(a[1:])
@@ -51,8 +51,11 @@ b=list(a)
 print(b)
 print(b.append(7))
 print(b.pop(6))
-print(tuple(b))
+print(tuple(b))'''
 
+a=(1,2,3)
+x,y,z=a
+print(x,y,z)
 
 
 

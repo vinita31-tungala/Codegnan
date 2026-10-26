@@ -58,7 +58,7 @@ two = "Chaf"
 two=two[:3]+'e'+two[4:]
 print(one + " " + two)
 
-x=1
+'''x=1
 while x>0:
     print(x,end="")
-    x+=1
+    x+=1'''
