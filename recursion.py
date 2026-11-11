@@ -85,3 +85,28 @@ print(count_digits(54321))'''
     return gcd(b, a % b)
 
 print(gcd(24, 36))'''  #output:12
+
+
+# Finding 2nd largest num in list
+'''a=[5,4,3,2,1]
+b=sorted(set(a))
+if len(b)>=2:
+        c=b[-2]
+        print("2nd largest num:",c)'''
+# without using max() and sort(),using loops and func
+def sc_lar_num(nums):
+    first_highest=float('-inf')
+    second_highest=float('-inf')
+    for num in nums:
+        if num>first_highest:
+            sc_highest=first_highest
+            first_highest=num
+        elif num>sc_highest and num!=first_highest:
+            sc_highest=num
+    if sc_highest==float('-inf'):
+        return None
+    return sc_highest
+lst=[8,6,9,4,5]
+result=sc_lar_num(lst)
+print("2nd largest:",result)
+            

@@ -49,7 +49,7 @@ print(a)
 print(a[::-1])
 '''
 
-a=4+8
+'''a=4+8
 print(a)
 tup = (1, 2, 3, 4, 5)
 print(tup[::-1])
@@ -57,8 +57,9 @@ one = "Coding"
 two = "Chaf"
 two=two[:3]+'e'+two[4:]
 print(one + " " + two)
-
+'''
 '''x=1
 while x>0:
     print(x,end="")
     x+=1'''
+

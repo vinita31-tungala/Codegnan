@@ -35,3 +35,64 @@ print(selection_sort(arr))'''  #Output:[1,2,4,5]
     return arr
 arr=[5,3,6,2,1]
 print(insertion_sort(arr))'''  #Output:[1,2,3,5,6]
+
+
+# Merge sort
+
+'''def merge_sort(arr):
+    # Base condition
+    if len(arr) <= 1:
+        return arr
+
+    # Divide array into two parts
+    mid = len(arr) // 2
+    left = arr[:mid]
+    right = arr[mid:]
+
+    # Recursively sort both halves
+    left = merge_sort(left)
+    right = merge_sort(right)
+
+    # Merge the sorted halves
+    return merge(left, right)
+
+
+def merge(left, right):
+    result = []
+    i = 0
+    j = 0
+
+    # Compare elements from both arrays
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+
+    # Add remaining elements
+    result.extend(left[i:])
+    result.extend(right[j:])
+
+    return result
+
+
+arr = [5, 3, 4, 1, 2]
+print(merge_sort(arr))
+'''
+
+# Quick Sort
+'''def quick_sort(arr):
+    if len(arr)<=1:
+        return arr
+    #n=len(arr)
+    #index=n//2
+    #pivot=arr[index]  #or
+    pivot=arr[len(arr)//2]
+    left=[x for x in arr if x<pivot]
+    middle=[x for x in arr if x==pivot]
+    right=[x for x in arr if x>pivot]
+    return quick_sort(left)+middle+quick_sort(right)
+arr=[5,3,6,7,1,4,2]
+print(quick_sort(arr))'''
